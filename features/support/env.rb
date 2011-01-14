@@ -2,7 +2,7 @@ require 'rubygems'
 
 # Loads all of the *.rb files under ./pages -- this is where
 # The Ruby Classes that represent pages in the application
-# are stored.
+# are stored (see Page Object pattern).
 Dir[File.dirname(__FILE__) + './pages/*.rb'].each do |file| 
   require File.basename(file, File.extname(file))
 end
