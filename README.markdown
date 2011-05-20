@@ -27,6 +27,6 @@ Installation
 You will need Ruby installed on your machine.
 From a command prompt, type the following commands:
 
-*  gem install bundler (Installs the bundler gem -- this is used to pull down all of the other gems needed for the tests)
-* bundle (This will install all the necessary gem files to run the tests)
-* cucumber features/ (Runs all of the Cucumber feature files found under the features/ directory)
+*  _gem install bundler_ (Installs the bundler gem -- this is used to pull down all of the other gems needed for the tests)
+* _bundle_ (This will install all the necessary gem files to run the tests)
+* _cucumber features/_ (Runs all of the Cucumber feature files found under the features/ directory)
